@@ -2,6 +2,8 @@
 An Excel-based Candidate Screening System with a full dataset, automated skill-requirement checks, salary filtering, and final shortlisting logic. Includes summary metrics and multiple pivot-table visuals like shortlist analysis, role-wise applicant insights, and salary comparisons to support hiring decisions.
 ## Dataset used
  <a href="https://github.com/MSaad-data/Candidate_Screening_System_Excel_Project/blob/main/Candidate_Screening_System.xlsx">Dataset view</a>
+
+ 
 A US-based company opened hiring for four roles: Data Analyst, Business Analyst, Marketing Analyst, and Operations Coordinator.
 The recruiter shared the job posts online. After 15 days, many people applied. The recruiter did an initial screening and selected 25 candidates for the next review round.
 To manage these candidates, the recruiter collected their details in an Excel file.
@@ -106,6 +108,7 @@ What is the quality (recruiter score) of the shortlisted group?
 Instead of checking row by row, this small summary gives the recruiter a big-picture view in seconds.
 
 It helps the recruiter answer:
+
 👉 “Do we have enough good candidates or do we need to reopen the job posting?”
 
 ### Formulas Used
@@ -181,13 +184,13 @@ The second visual is a clustered column chart showing how many candidates applie
 
 ### What the chart shows
 
-Business Analyst: 7 applications → 2 shortlisted
+**Business Analyst:** 7 applications → 2 shortlisted
 
-Data Analyst: 6 applications → 0 shortlisted
+**Data Analyst:** 6 applications → 0 shortlisted
 
-Marketing Analyst: 5 applications → 1 shortlisted
+**Marketing Analyst:** 5 applications → 1 shortlisted
 
-Ops Coordinator: 7 applications → 1 shortlisted
+**Ops Coordinator:** 7 applications → 1 shortlisted
 
 A recruiter needs to see the quality of applicants for each role.
 This chart shows both quantity and quality, so the recruiter can quickly identify:
@@ -200,8 +203,9 @@ Talent gaps in certain roles
 
 ### From this chart:
 **Business Analyst:** Most applications are strong; focus interviews here.
-**Data Analyst: **No candidates fully meet requirements; consider re-opening the role or adjusting expectations.
-**Marketing Analyst & Ops Coordinator: **Only 1 candidate each meets all criteria; recruiter may need additional sourcing.
+**Data Analyst:** No candidates fully meet requirements; consider re-opening the role or adjusting expectations.
+**Marketing Analyst & Ops Coordinator:** Only 1 candidate each meets all criteria; recruiter may need additional sourcing.
+
 This visual helps the recruiter prioritize interview efforts and make data-driven hiring decisions, saving time and improving outcomes
 
 ## Visual 3: Expected Salary vs Shortlisted Status (Clustered Column Chart)
@@ -220,11 +224,11 @@ This chart shows the average Excel, SQL, and Python experience of candidates for
 
 **Business Analyst:** Balanced skills, strong SQL and Python
 
-**Data Analyst: **Strong SQL and Python, well-aligned with role
+**Data Analyst:** Strong SQL and Python, well-aligned with role
 
 **Marketing Analyst:** High Python, good analytics skills
 
-**Ops Coordinator: **Lowest technical experience, fits role nature
+**Ops Coordinator:** Lowest technical experience, fits role nature
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7ad854cd-c6f6-4859-8707-c04b391c3bec" />
 
